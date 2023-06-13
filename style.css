@@ -1,11 +1,18 @@
 header{
     background-image: url(./media/school.jpg);
-    width: 100%;
+    width: auto;
     height: 200px;
     background-position: 0;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 30px;
 }
+
+@media (max-width: 576px) {
+    header {
+      font-size: 1.5em;
+    }
+  }
 
 @font-face {
     font-family: "fuente-titulo";
